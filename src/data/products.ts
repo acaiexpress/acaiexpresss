@@ -78,7 +78,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 300ml",
     price: 22.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 300ml",
-    image: "https://imgur.com/NwlNRj3",
+    image: "https://i.imgur.com/0vnJy4D.png",
     category: CATEGORIES.ZERO
   },
   {
@@ -86,7 +86,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 500ml",
     price: 25.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 500ml",
-    image: "https://imgur.com/NwlNRj3",
+    image: "https://i.imgur.com/0vnJy4D.png",
     category: CATEGORIES.ZERO
   },
   {
@@ -94,7 +94,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 700ml",
     price: 29.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 700ml",
-    image: "https://imgur.com/NwlNRj3",
+    image: "https://i.imgur.com/0vnJy4D.png",
     category: CATEGORIES.ZERO
   },
   {
@@ -102,7 +102,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 1L",
     price: 40.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 1 litro",
-    image: "https://imgur.com/NwlNRj3",
+    image: "https://i.imgur.com/0vnJy4D.png",
     category: CATEGORIES.ZERO
   }
 ];
