@@ -19,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) => {
         <img 
           src={image} 
           alt={name} 
-          className="w-full h-56 object-cover"  // Ajustado para uma altura de 56 unidades
+          className="w-full h-72 object-cover"  // Alterado para h-72
         />
         {bestSeller && (
           <div className="absolute top-2 right-2 bg-yellow-400 text-yellow-900 text-xs font-bold px-2 py-1 rounded-full animate-pulse">
