@@ -13,7 +13,7 @@ export const products: Product[] = [
     name: "2 copos de açaí 300ml",
     price: 19.90,
     description: "Dois deliciosos copos de açaí tradicional no tamanho 300ml",
-    image: "https://images.pexels.com/photos/5946957/pexels-photo-5946957.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/WG2Vm6c.png",
     category: CATEGORIES.COMBO
   },
   {
@@ -21,7 +21,7 @@ export const products: Product[] = [
     name: "2 copos de açaí 500ml",
     price: 22.90,
     description: "Dois deliciosos copos de açaí tradicional no tamanho 500ml",
-    image: "https://images.pexels.com/photos/5948024/pexels-photo-5948024.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/WG2Vm6c.png",
     category: CATEGORIES.COMBO
   },
   {
@@ -29,7 +29,7 @@ export const products: Product[] = [
     name: "2 copos de açaí 700ml",
     price: 26.90,
     description: "Dois deliciosos copos de açaí tradicional no tamanho 700ml",
-    image: "https://images.pexels.com/photos/5946025/pexels-photo-5946025.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/WG2Vm6c.png",
     category: CATEGORIES.COMBO,
     bestSeller: true
   },
@@ -38,7 +38,7 @@ export const products: Product[] = [
     name: "2 copos de açaí 1L",
     price: 37.90,
     description: "Dois deliciosos copos de açaí tradicional no tamanho 1 litro",
-    image: "https://images.pexels.com/photos/5945999/pexels-photo-5945999.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/WG2Vm6c.png",
     category: CATEGORIES.COMBO
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
     name: "1 copo de açaí 300ml",
     price: 19.90,
     description: "Um delicioso copo de açaí tradicional no tamanho 300ml",
-    image: "https://images.pexels.com/photos/5946957/pexels-photo-5946957.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/w8kKhC1.png",
     category: CATEGORIES.INDIVIDUAL
   },
   {
@@ -54,7 +54,7 @@ export const products: Product[] = [
     name: "1 copo de açaí 500ml",
     price: 22.90,
     description: "Um delicioso copo de açaí tradicional no tamanho 500ml",
-    image: "https://images.pexels.com/photos/5948024/pexels-photo-5948024.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/w8kKhC1.png",
     category: CATEGORIES.INDIVIDUAL
   },
   {
@@ -62,7 +62,7 @@ export const products: Product[] = [
     name: "1 copo de açaí 700ml",
     price: 26.90,
     description: "Um delicioso copo de açaí tradicional no tamanho 700ml",
-    image: "https://images.pexels.com/photos/5946025/pexels-photo-5946025.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/w8kKhC1.png",
     category: CATEGORIES.INDIVIDUAL
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     name: "1 copo de açaí 1L",
     price: 37.90,
     description: "Um delicioso copo de açaí tradicional no tamanho 1 litro",
-    image: "https://images.pexels.com/photos/5945999/pexels-photo-5945999.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://i.imgur.com/w8kKhC1.png",
     category: CATEGORIES.INDIVIDUAL
   },
   {
@@ -78,7 +78,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 300ml",
     price: 22.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 300ml",
-    image: "https://images.pexels.com/photos/5946957/pexels-photo-5946957.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://imgur.com/NwlNRj3",
     category: CATEGORIES.ZERO
   },
   {
@@ -86,7 +86,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 500ml",
     price: 25.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 500ml",
-    image: "https://images.pexels.com/photos/5948024/pexels-photo-5948024.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://imgur.com/NwlNRj3",
     category: CATEGORIES.ZERO
   },
   {
@@ -94,7 +94,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 700ml",
     price: 29.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 700ml",
-    image: "https://images.pexels.com/photos/5946025/pexels-photo-5946025.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://imgur.com/NwlNRj3",
     category: CATEGORIES.ZERO
   },
   {
@@ -102,7 +102,7 @@ export const products: Product[] = [
     name: "1 copo zero açúcar 1L",
     price: 40.90,
     description: "Um delicioso copo de açaí zero açúcar no tamanho 1 litro",
-    image: "https://images.pexels.com/photos/5945999/pexels-photo-5945999.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://imgur.com/NwlNRj3",
     category: CATEGORIES.ZERO
   }
 ];
