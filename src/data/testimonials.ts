@@ -18,35 +18,35 @@ export const testimonials: Testimonial[] = [
   {
     id: 3,
     name: "Juliana Costa",
-    photo: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+    photo: "https://i.imgur.com/rWf6QrZ.jpeg",
     rating: 4,
     comment: "Adoro os complementos gratuitos no primeiro pedido. O açaí com Nutella e KitKat é simplesmente divino."
   },
   {
     id: 4,
     name: "Carlos Mendes",
-    photo: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    photo: "https://i.imgur.com/LSQsdF6.jpeg",
     rating: 5,
     comment: "A promoção 'Pague 1 e Leve 2' é imbatível. Sempre divido com minha esposa e economizamos bastante!"
   },
   {
     id: 5,
     name: "Fernanda Lima",
-    photo: "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=600",
+    photo: "https://i.imgur.com/dImJfhq.jpeg",
     rating: 5,
     comment: "Entrega sempre pontual e o açaí chega cremoso e gelado. Perfeito para dias quentes!"
   },
   {
     id: 6,
-    name: "André Santos",
-    photo: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Anderson Nogueira",
+    photo: "https://i.imgur.com/eMrVnsY.jpeg",
     rating: 4,
     comment: "Os complementos são muito frescos. Adoro adicionar granola e castanha de caju no meu açaí de 500ml."
   },
   {
     id: 7,
     name: "Patrícia Moreira",
-    photo: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
+    photo: "https://i.imgur.com/brCUcFm.jpeg",
     rating: 5,
     comment: "Descobri o Açaí Express há 2 meses e já virei cliente fiel. O sabor é autêntico e os preços são justos!"
   }
