@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Marina Silva",
-    photo: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
+    photo: "https://i.imgur.com/EpZiZ6p.jpeg",
     rating: 5,
     comment: "O melhor açaí da cidade! Sempre peço o combo de 700ml e nunca me decepciono. Atendimento rápido e qualidade excepcional."
   },
