@@ -22,15 +22,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-purple-300 mr-2" />
-                <span>(11) 99999-9999</span>
+                <span>(99) 98502-9752</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 text-purple-300 mr-2" />
-                <span>Av. Paulista, 1000 - São Paulo</span>
+                <span></span>
               </li>
               <li className="flex items-center">
                 <Clock className="h-5 w-5 text-purple-300 mr-2" />
-                <span>Seg-Dom: 12h às 22h</span>
+                <span>Seg-Dom: 10h às 02h</span>
               </li>
             </ul>
           </div>
