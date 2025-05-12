@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from '../context/LocationContext';
-import { Clock } from 'lucide-react';
+import { Clock, Zap, Gift, Truck } from 'lucide-react';
 
 const StoreInfo: React.FC = () => {
   const { location } = useLocation();
@@ -22,7 +22,33 @@ const StoreInfo: React.FC = () => {
   if (!location) return null;
   
   return (
-    <div className="mt-4 mb-8">
+    <div className="mt-4 mb-8 space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="bg-red-500 rounded-lg p-4 shadow-lg animate-pulse">
+          <div className="flex items-center space-x-2">
+            <Zap className="h-6 w-6 text-white" />
+            <p className="text-white font-bold">
+              URGENTE: Promoção Relâmpago!
+            </p>
+          </div>
+          <p className="text-white mt-1">
+            Peça agora e ganhe 1 Nutella GRÁTIS!
+          </p>
+        </div>
+
+        <div className="bg-yellow-400 rounded-lg p-4 shadow-lg animate-bounce">
+          <div className="flex items-center space-x-2">
+            <Gift className="h-6 w-6 text-yellow-900" />
+            <p className="text-yellow-900 font-bold">
+              HOJE: 2 por 1!
+            </p>
+          </div>
+          <p className="text-yellow-900 mt-1">
+            Compre 1 açaí e leve outro GRÁTIS!
+          </p>
+        </div>
+      </div>
+
       <div className="bg-purple-200 rounded-lg p-4 mb-4 shadow-sm">
         <div className="flex items-center justify-between flex-wrap">
           <p className="text-purple-900 font-medium">
@@ -34,10 +60,13 @@ const StoreInfo: React.FC = () => {
         </div>
       </div>
       
-      <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden shadow-md mb-6">
+      <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden shadow-md">
         <div className="p-6 text-white">
-          <h2 className="text-xl md:text-2xl font-bold mb-2">🎉 INAUGURAÇÃO 🎉</h2>
-          <p className="text-lg md:text-xl font-medium">
+          <div className="flex items-center space-x-2">
+            <Truck className="h-6 w-6 animate-bounce" />
+            <h2 className="text-xl md:text-2xl font-bold">🎉 INAUGURAÇÃO 🎉</h2>
+          </div>
+          <p className="text-lg md:text-xl font-medium mt-2">
             Entrega GRÁTIS em {location.city}!
           </p>
           <div className="mt-3 flex items-center">
