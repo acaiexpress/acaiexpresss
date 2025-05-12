@@ -1,4 +1,4 @@
-export const states = ["Maranhão"];
+export const states = ["Maranhão", "Goiás"];
 
 export const cities: Record<string, string[]> = {
   "Maranhão": [
@@ -22,5 +22,27 @@ export const cities: Record<string, string[]> = {
     "Tutóia",
     "Zé Doca",
     "Coroatá"
+  ],
+  "Goiás": [
+    "Goiânia",
+    "Aparecida de Goiânia",
+    "Anápolis",
+    "Rio Verde",
+    "Luziânia",
+    "Águas Lindas de Goiás",
+    "Valparaíso de Goiás",
+    "Trindade",
+    "Formosa",
+    "Novo Gama",
+    "Senador Canedo",
+    "Catalão",
+    "Itumbiara",
+    "Jataí",
+    "Planaltina",
+    "Caldas Novas",
+    "Goianésia",
+    "Inhumas",
+    "Cidade Ocidental",
+    "Mineiros"
   ]
 };
