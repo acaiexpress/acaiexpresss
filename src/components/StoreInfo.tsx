@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from '../context/LocationContext';
-import { Clock, Zap, Gift, Truck } from 'lucide-react';
+import { Clock, Zap, Gift, Truck, AlertCircle } from 'lucide-react';
 
 const StoreInfo: React.FC = () => {
   const { location } = useLocation();
@@ -24,59 +24,56 @@ const StoreInfo: React.FC = () => {
   return (
     <div className="mt-4 mb-8 space-y-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="bg-red-500 rounded-lg p-4 shadow-lg animate-pulse">
+        <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-lg p-4 shadow-lg transform hover:scale-105 transition-transform duration-300">
           <div className="flex items-center space-x-2">
-            <Zap className="h-6 w-6 text-white" />
-            <p className="text-white font-bold">
-              URGENTE: Promoção Relâmpago!
+            <AlertCircle className="h-6 w-6 text-white animate-pulse" />
+            <p className="text-white font-bold text-lg animate-pulse">
+              MEGA PROMOÇÃO RELÂMPAGO!
             </p>
           </div>
-          <p className="text-white mt-1">
-            Peça agora e ganhe 1 Nutella GRÁTIS!
-          </p>
+          <div className="mt-2 flex items-center justify-between">
+            <p className="text-white text-sm md:text-base">
+              Peça agora e ganhe Nutella GRÁTIS!
+            </p>
+            <Zap className="h-5 w-5 text-yellow-300 animate-bounce" />
+          </div>
         </div>
 
-        <div className="bg-yellow-400 rounded-lg p-4 shadow-lg animate-bounce">
+        <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg p-4 shadow-lg transform hover:scale-105 transition-transform duration-300">
           <div className="flex items-center space-x-2">
-            <Gift className="h-6 w-6 text-yellow-900" />
-            <p className="text-yellow-900 font-bold">
-              HOJE: 2 por 1!
+            <Gift className="h-6 w-6 text-yellow-900 animate-bounce" />
+            <p className="text-yellow-900 font-bold text-lg">
+              OFERTA IMPERDÍVEL!
             </p>
           </div>
-          <p className="text-yellow-900 mt-1">
-            Compre 1 açaí e leve outro GRÁTIS!
-          </p>
+          <div className="mt-2 flex items-center justify-between">
+            <p className="text-yellow-900 text-sm md:text-base">
+              Na compra de 1 açaí, leve outro GRÁTIS!
+            </p>
+            <span className="text-yellow-900 font-bold animate-pulse">2=1</span>
+          </div>
         </div>
       </div>
 
-      <div className="bg-purple-200 rounded-lg p-4 mb-4 shadow-sm">
-        <div className="flex items-center justify-between flex-wrap">
-          <p className="text-purple-900 font-medium">
-            <span className="font-bold">Açaí Express</span> - Loja mais próxima: 1,6 km
-          </p>
-          <p className="text-purple-700 text-sm">
-            {location.city}, {location.state}
-          </p>
-        </div>
-      </div>
-      
-      <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden shadow-md">
+      <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
         <div className="p-6 text-white">
-          <div className="flex items-center space-x-2">
-            <Truck className="h-6 w-6 animate-bounce" />
-            <h2 className="text-xl md:text-2xl font-bold">🎉 INAUGURAÇÃO 🎉</h2>
+          <div className="flex items-center space-x-3 mb-4">
+            <Truck className="h-8 w-8 animate-bounce" />
+            <h2 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-500 animate-pulse">
+              ENTREGA 100% GRÁTIS!
+            </h2>
           </div>
-          <p className="text-lg md:text-xl font-medium mt-2">
-            Entrega GRÁTIS em {location.city}!
-          </p>
-          <div className="mt-3 flex items-center">
-            <Clock className="h-5 w-5 mr-2" />
-            <p className="text-sm">
-              Promoção encerra em: 
-              <span className="ml-1 bg-white text-purple-700 px-2 py-1 rounded-md font-mono">
+          
+          <div className="flex items-center justify-between">
+            <p className="text-lg md:text-xl font-medium">
+              Entregamos em {location.city} sem taxa!
+            </p>
+            <div className="flex items-center space-x-2 bg-white/20 px-3 py-1 rounded-full">
+              <Clock className="h-5 w-5" />
+              <span className="font-mono">
                 {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
               </span>
-            </p>
+            </div>
           </div>
         </div>
       </div>
